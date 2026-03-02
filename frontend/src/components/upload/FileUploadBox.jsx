@@ -1,7 +1,7 @@
 function FileUploadBox({label, onFileSelect}){
     return(
        <div>
-        <label>{{label}}</label>
+        <label>{label}</label>
         <input 
             type="file"
             accept=".pdf, .docx"
